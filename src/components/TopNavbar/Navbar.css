@@ -1,0 +1,38 @@
+.navbar-color{
+    background-color:#FF6530;
+  }
+  
+  .navbar .navbar-brand{
+    font-size: 30px;
+    color:white;
+    font-weight: 1000;
+    
+  }
+  
+  .navbar .navbar-nav{
+  margin-top: 1rem;
+  }
+  .navbar .nav-item a{
+    color:white !important;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .navbar .nav-item a:hover{
+    background-color: white;
+    
+    color:black !important;
+  }
+ 
+#button1{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 1px;
+    color:#FF6530;
+    font-weight: 600;
+}
+#toggler {
+  background-color: white;
+
+}

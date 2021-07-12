@@ -1,0 +1,17 @@
+.card3Header {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 32px;
+    font-weight: 600;
+    color: #1A0500;
+    font-size: 22px;
+}
+.nutriimg {
+    height: 600px;
+    width: 500px;
+    margin-top: 200px;
+}
+@media screen and (max-width: 768px){
+    .cardspacing {
+        margin-top: 600px;
+    }
+}

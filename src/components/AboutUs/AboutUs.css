@@ -1,0 +1,22 @@
+.textalign{
+    text-align: center;
+    color: #FF613B;
+}
+#colour{
+    color: #FF613B;
+}
+
+#gap p{
+    font-family:Montserrat;
+    font-weight: Bold;
+    font-size: 22px;
+    color: #1A0500;
+    opacity: 0.5;
+    text-align: left;
+}
+@media only screen and (min-width:992px){
+    #gap{
+        margin-top: 60px;
+    }
+    
+}

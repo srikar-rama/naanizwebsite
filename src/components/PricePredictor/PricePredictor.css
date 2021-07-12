@@ -1,0 +1,19 @@
+.ppimg {
+    height: 400px;
+    width: 600px;
+    margin-top: 250px;
+}
+.orderedlist {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .ppimg {
+        height: 350px;
+        width: 500px;
+        margin-top: 250px;
+    }
+}

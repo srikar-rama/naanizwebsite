@@ -1,0 +1,18 @@
+#headingtop{
+    margin-top: 10%;
+}
+.heading1 {
+    color: #FF613B;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.aicardtitle{
+    
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:600;
+    font-size:18px;
+    line-height:12px;
+    letter-spacing: 0px;
+    color: #1A0500;
+}

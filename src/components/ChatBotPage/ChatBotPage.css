@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.heading {
+    margin-top: 100px;
+}
+
+.mainbox h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    color: #ff613b;
+}
+
+.mainbox h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ff613b;
+}
+.mainbox img {
+    position: absolute;
+    
+}
+.cardHeader {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #1A0500;
+    font-size: 30px;
+}
+.cardBody {
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 22px;
+    color: #1A0500;
+    opacity: 0.48;
+}
+.cardcustom {
+    margin-top: 200px;
+    border-radius: 16px;
+    box-shadow: 0px 3px 30px #00000029;
+}
+#more {
+    float: right;
+    color: #000000;
+    opacity: 0.31;
+    margin-top:60px;
+}
+#more2 {
+    float: right;
+    color: #000000;
+    opacity: 0.31;
+    margin-top:88px;
+}
+.fa-angle-down {
+    margin-left: 10px;  
+}
+.CH {
+ background-color: #ff613b;
+ height: 49px;
+ border-radius: 9px;
+}
+.card2Header {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 32px;
+    font-weight: 600;
+    color: #1A0500;
+    font-size: 25px;
+}
+.MenuImg {
+    margin-top: 5px;
+}
+.card2Body {
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 17px;
+    color: #1A0500;
+    opacity: 0.48;
+}
+.the3cards {
+    margin-bottom: 50px;
+}
+.content {
+    color: black;
+    opacity: 0.67;
+    
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.longbutton {
+    background-color: #ff613b;
+    height: 80px;
+}
+.button {
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.CB {
+    height: 249px;
+}
+.subcard2 {
+    background-color: rgba(0,0,0,0.2);
+}
+.chatbotimg {
+    width: 600px;
+    height: 600px;
+    margin-top: 140px;
+}
+
+.final-button1 :hover {
+    background-color: darkgreen;
+}
+
+@media screen and (max-width: 768px)
+{
+    .content {
+        margin-left: 50px;
+    }
+    .chatbotimg {
+        width: 80%;
+    }
+    .final-button1 {
+        offset: 0;
+        align-self: center;
+    } 
+    .chatbotcards{
+        margin-top: 500px;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .final-button1 {
+        margin-left: 33.3333333%;
+    }
+}

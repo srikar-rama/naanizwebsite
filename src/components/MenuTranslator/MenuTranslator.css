@@ -1,0 +1,21 @@
+
+.headingmenu {
+    margin-top: 10%;
+}
+
+
+.menutransimg {
+    height: 500px;
+    width: 600px;
+    margin-top: 180px;
+}
+@media screen and (max-width: 768px){
+    .menucards {
+        margin-top: 500px;
+    }
+    .menutransimg {
+        height: 500px;
+        width: 550px;
+        margin-top: 180px;
+    }
+}

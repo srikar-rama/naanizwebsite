@@ -1,0 +1,539 @@
+html {
+    font-family:Montserrat;
+}
+
+.fulldemo {
+    background: linear-gradient(150deg, white 60% , rgb(255,77,0) 40%);
+}
+
+.reqdemo h1 {
+    color: rgb(255, 77, 0);
+    letter-spacing: 2px; 
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .reqdemo h1 {
+        margin-top: 50px;
+        
+        font-weight: 600;
+    }
+
+    .reqdemo img {
+        height: 70%;
+        width: 100%;
+    }
+
+    
+  }
+
+  
+
+.reqdemo p {
+    color: rgb(146, 141, 141);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.reqdemo a {
+    background-color: white;
+    color: rgb(255, 77, 0);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(122, 118, 118, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19);
+}
+
+
+@media only screen and (max-width: 600px)  {
+    
+}
+
+
+.reqdemo div {
+    padding-top: 7%;
+    padding-left: 5%;
+}
+
+.reqdemo img {
+    height: 70%;
+}
+
+
+
+.reasons .col-md-5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    padding: 0;
+    
+}
+
+.reasons .col-md-5 p{
+    padding: 20px;
+    color: rgb(85, 83, 83);
+    font-weight: 600;
+}
+
+.reasons .col-md-5 div {
+    background-color: rgb(255, 77, 0);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+
+.whynaaniz h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.headingwhy p{
+    padding: 10px 250px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+    .headingwhy p{
+        padding: 10px 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .videoimg {
+        width: 70%;
+    }
+
+    .forkimg {
+        width: 40%;
+    }
+}
+
+.info {
+    
+    padding: 5% 5%;
+}
+
+
+.info h5{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+
+.sugg {
+    padding-bottom: 20px;
+}
+
+
+.info li {
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.finalline {
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.totaldown {
+    padding-bottom: 90px;
+}
+
+.totaldown .col-md-3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px 4%;
+}
+
+.totaldown h4 {
+    padding: 20px 0px 0px;
+    text-align: center;
+}
+
+.totaldown p {
+    text-align: center;
+    padding: 0px 0px 10px;
+}
+
+.sf h1 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sf p {
+    color: rgb(145, 140, 140);
+    padding: 10px 20% 10px 15%;
+}
+
+.aiheading {
+    text-align: center;
+    color: rgb(255, 77, 0);
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px #aca9a9;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.settings h4{
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px #d1caca;
+    margin-bottom: 80px;
+}
+
+.settings i{
+    color: red;
+    font-size: 1.5rem;
+    margin-right: 2%;
+   
+}
+
+
+.settings p {
+    padding: 1px 5%;
+    font-weight: 700;
+    color: rgb(114, 110, 110);
+    
+}
+
+.ifc {
+    color: rgb(255, 77, 0);
+}
+
+.colorwhole {
+    background: linear-gradient(160deg, white 60% , rgb(255,77,0) 40%);
+}
+
+html {
+    font-family:Montserrat;
+}
+
+.feautureheading {
+    text-align: center;
+    padding: 5% 0px;
+    font-family:Montserrat;
+    
+    
+}
+
+.feautureheading h1 {
+    color: rgb(255, 77, 0);
+    padding: 20px 0px;
+    font-size: 3rem;
+}
+
+.feautureheading h5 {
+    letter-spacing: 1px;
+    color: rgb(146, 141, 141);
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.menubox {
+   border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 40px 25%;
+}
+
+.menubox h5 {
+    font-weight: 700;
+}
+
+.menubox p {
+    padding: 0px 15px;
+    color: rgb(184, 177, 177);
+    font-weight: 700;
+}
+
+.menubox div {
+    text-align: end;
+    padding: 5px 10px;
+    
+}
+
+.menubox a {
+    color: rgb(146, 141, 141);
+    text-decoration: none;
+}
+
+.alloptions {
+    padding: 10px 30%;
+}
+
+.alloptions img {
+    margin: 10px ;
+}
+
+.alloptions p {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.upperpart {
+    background-color: rgb(255, 77, 0);
+    color: rgb(255, 77, 0);
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px rgb(163, 162, 162);
+}
+
+.bigpart .col-md-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    padding: 0px 0px;
+}
+
+.middlepart {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.middlepart img {
+    margin-right: 10px;
+}
+
+.lowerpart  {
+    text-align: end;
+    padding: 10px;
+}
+
+.middlepart p {
+    color: rgb(184, 177, 177);
+    font-weight: 700;
+}
+
+.lowerpart a {
+    color: rgb(184, 177, 177);
+    text-decoration: none;
+
+}
+
+
+.addfoodrow h1{
+    text-align: center;
+    color: rgb(255, 77, 0);
+    padding: 50px 0px 30px;
+    font-weight: 700;
+}
+
+.addfoodrow p {
+    text-align: center;
+    color: rgb(184, 177, 177);
+    font-size: 1.5rem;
+    padding: 0px 20% 5%;
+}
+
+.addfoodrow img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.chatbotrow h1{
+    text-align: center;
+    color: rgb(255, 77, 0);
+    padding: 50px 0px 30px;
+    font-weight: 700;
+}
+
+.chatbotrow p {
+    text-align: center;
+    color: rgb(184, 177, 177);
+    font-size: 1.5rem;
+    padding: 0px 20% 1%;
+}
+
+.chatbotrow .img1 {
+    display: block;
+    margin-left: 50%;
+    width: 30%;
+    text-align: "end";
+}
+
+.chatbigbox {
+    background: linear-gradient(-160deg, white 60% , rgb(255,77,0) 40%);
+    margin-bottom: 100px;
+}
+
+
+.reviewlast h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    color: black;
+}
+
+.reviewlast a{
+    background-color: rgb(255,77,0);
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin: 5% 0 5% 40%;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.reviews {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5% 20%;
+
+}
+
+
+.reviews img {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.reviews h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.reviews i {
+    color: rgb(255, 77, 0);
+}
+
+.reviews p {
+    font-weight: 600;
+    color: rgb(143, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 20%;
+    margin-bottom: 100px;
+
+}
+
+
+.reviewprev {
+    height: 100px;
+    width: 100px;
+    margin-top: 10%;
+    background-color: rgb(255, 77, 0);
+    border-radius: 50%;
+}
+
+.aboutreview h1{
+    text-align: center;
+    color: rgb(255, 77, 0);
+    padding: 30px 0px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.aboutreview p {
+    padding-left: 10%;
+    font-weight: 600;
+    color: rgb(143, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 20%;
+    padding-bottom: 15%;
+}
+
+.aboutreview {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5% 20%;
+}
+
+.footersec a {
+    color: white;
+    text-decoration: none;
+}
+
+.footersec div {
+    margin: 20px;
+}
+
+.footersec img {
+    margin: 5px;
+}
+
+
+.searchmain button{
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(255, 77, 0);
+    border-width: none;
+    border-style: none;
+    margin-left: 5px;
+}
+
+.searchmain input {
+    background-color: rgb(255, 77, 0);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+}
+
+
+.searchmain ::placeholder {
+    color: white;
+}
+
+
+.imgrec {
+    height: "60%";
+        width: 70%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+.imgrec {
+    height: 100%;
+        width: 70%;
+}
+
+.logoimgg {
+    padding-left: 50px;
+}
+
+.ffimg {
+    width: 90%;
+}
+
+.reviewlast a{
+    background-color: rgb(255,77,0);
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px 5px;
+    margin: 5% 0 5% 15%;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+}
+
+.imglogo {
+    height: 50%;
+    width: 70%;
+}
+
+.uml {
+   border-style: solid;
+   border-width: 1px;
+}
+

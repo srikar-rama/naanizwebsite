@@ -1,0 +1,6 @@
+@media screen and (min-width:992px){
+    #mainimg {
+        height: 450px;
+        margin-bottom: -100px;
+    }
+}

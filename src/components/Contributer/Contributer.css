@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Bold.eot');
+    src: url('/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Bold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-SemiBold.eot');
+    src: url('/assets/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Medium.eot');
+    src: url('/assets/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Medium.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.customBorder{
+    border-radius: 50%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.customcardforContributor {
+    border: 1px solid transparent;
+    background-color: #ff6530;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.cardtitleforCont{
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.cardSubtitleforcont{
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #1A0500;
+    opacity: 0.48;
+}
+
+
+.Headtext{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #1A0500;
+}
+
+.Headtext3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #ff4114;
+    margin-top: 30px;
+    margin-bottom: 19px;
+}
+.Headtext2{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #1A0500;
+    opacity:.60;
+}
+.ContributorButton {
+    background-color: #ff6530;
+    border: 1px solid #ff6530;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    opacity:.9;
+    margin-top:50px;
+}
+
+.ContributorButton:hover {
+    background-color: #ff6530;
+    border: 1px solid #ff6530;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    opacity:1;
+    margin-top: 50px;
+}
+
+.customModalheader{
+    background-color: #ff6530;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color:#ffff;
+}
+
+.ContributorButton2 {
+    background-color: #ff6530;
+    border: 1px solid #ff6530;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    opacity:.9;
+}
+
+.ContributorButton2:hover {
+    background-color: #ff6530;
+    border: 1px solid #ff6530;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    opacity:1;
+}
+
+.angry-joe {
+  color: #999;  
+}
+
+.angry-joe:hover {
+  color: crimson;
+}
+
+.ico-angry-joe {
+  font-size: 5rem;
+}
+
+.formcontrolforcontributor {
+    display: block;
+    width: 22%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.customselectorigin{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:25px;
+}
+
+.customformmodal{
+
+}
+
+
+@media screen and (max-width: 1024px){
+    .cardtitleforCont {
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.formcontrolforcontributor {
+    display: block;
+    width: 35%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.cardSubtitleforcont {
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #1A0500;
+    opacity: 0.48;
+}
+}
+
+@media screen and (max-width: 768px){
+.formcontrolforcontributor {
+    display: block;
+    width: 42%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.customselectorigin{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+}
+.cardtitleforCont {
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.cardSubtitleforcont {
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #1A0500;
+    opacity: 0.48;
+}
+}
+
+@media screen and (max-width: 414px) {
+.Headtext3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #ff4114;
+    margin-top: 30px;
+    margin-bottom: 19px;
+}
+
+.formcontrolforcontributor {
+    display: block;
+    width: 83%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.Headtext {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #1A0500;
+}
+.Headtext2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 6px;
+    letter-spacing: 0px;
+    color: #1A0500;
+    opacity: .60;
+}
+}
+
+@media screen and (max-width: 375px){
+    .Headtext2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 6px;
+    letter-spacing: 0px;
+    color: #1A0500;
+    opacity: .60;
+}
+}

@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Bold.eot');
+    src: url('/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Bold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-SemiBold.eot');
+    src: url('/assets/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Medium.eot');
+    src: url('/assets/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Medium.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.displaycustom{
+        display:block;
+    }
+
+.contacthead{
+    font-family:Montserrat;
+    font-weight:600;
+    font-size:31px;
+    line-height:38px;
+    color:#000000;
+    letter-spacing: 0px;
+    padding-top:20px;
+    text-align: center;
+}
+.contacthead1{
+    font-family:Montserrat;
+    font-weight:500;
+    font-size:15px;
+    line-height:5px;
+    color:#000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top:20px;
+}
+.contacthead2{
+    font-family:Montserrat;
+    font-weight:500;
+    font-size:15px;
+    line-height:5px;
+    color:#000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top:20px;
+}
+
+.customcol {
+    margin-top: 50px;
+    padding-left:167px;
+}
+
+
+.rowadjust{
+    margin: 0px auto;
+    padding-top: 135px;
+}
+
+.form-control-custom {
+    display: block;
+    width: 117%;
+    height: 60px;
+    padding: .375rem .75rem;
+    margin-top:15px;
+    font-family:Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.contactbutton{
+    background: #FF613B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    margin-left:140px;
+    margin-top: 33px;
+    border: 1px solid #FF613B;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.btn-text-contact{
+    font-weight:bold;
+    font-size:15px;
+    line-height:5px;
+    color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.custommargin {
+    margin-top: 170px;
+}
+
+.img-custom1 {
+    margin-left: 76px;
+    height: 260px;
+    width: 450px;
+}
+
+.img-custom2 {
+    margin-left: 199px;
+    margin-top: 220px;
+}
+.img-custom3{
+    margin-left: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+    .img-custom1 {
+        margin-left: -4px;
+        height: 235px;
+        width: 405px;
+    }
+    .img-custom2 {
+        margin-left: 127px;
+        margin-top: 212px;
+    }
+    .customcol {
+    margin-top: 50px;
+    padding-left: 95px;
+}
+
+.form-control-custom {
+    display: block;
+    width: 117%;
+    height: 48px;
+    padding: .375rem .75rem;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+textarea.form-control {
+    height: 125px;
+}
+
+.contactbutton {
+    background: #FF613B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    margin-left: 62px;
+    margin-top: 33px;
+    border: 1px solid #FF613B;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .img-custom1 {
+    margin-left: -4px;
+    height: 201px;
+    width: 342px;
+}
+.img-custom2 {
+    margin-left: 111px;
+    margin-top: 191px;
+}
+.contacthead1 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 5px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 20px;
+}
+.contacthead2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 5px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 20px;
+}
+.customcol {
+    margin-top: 15px;
+    padding-left: 95px;
+}
+textarea.form-control {
+    height: 105px;
+}
+.form-control-custom {
+    display: block;
+    width: 117%;
+    height: 38px;
+    padding: .375rem .75rem;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.contactbutton {
+    background: #FF613B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    margin-left: 35px;
+    margin-top: 23px;
+    border: 1px solid #FF613B;
+}
+.btn-text-contact {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 5px;
+    color: #ffff;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    padding-right: 28px;
+}
+}
+
+@media screen and (max-width: 414px) {
+    .displaycustom{
+        display:none;
+    }
+    .rowadjust {
+    margin: 0px auto;
+    padding-top: 79px;
+}
+
+.contacthead {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: #000000;
+    letter-spacing: 0px;
+    padding-top: 13px;
+    text-align: center;
+    padding-right: 53px;
+}
+.contacthead1 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 2px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    margin-right: 35px;
+}
+.contacthead2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 0px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    margin-right: 48px;
+}
+.form-control-custom {
+    display: block;
+    width: 117%;
+    height: 48px;
+    padding: .375rem .75rem;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.form-control-custom {
+    display: block;
+    width: 73%;
+    height: 40px;
+    padding: .375rem .75rem;
+    margin-top: 4px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.contactbutton {
+    background: #FF613B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    margin-left: 53px;
+    margin-top: 23px;
+    border: 1px solid #FF613B;
+}
+.customcol {
+    margin-top: 17px;
+    padding-left: 68px;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+.contactbutton {
+    background: #FF613B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    margin-left: 35px;
+    margin-top: 23px;
+    border: 1px solid #FF613B;
+}
+
+}
+
+@media screen and (max-width: 375px){
+.contacthead {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: #000000;
+    letter-spacing: 0px;
+    padding-top: 13px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.contacthead1 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 2px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    margin-right: 14px;
+}
+
+.contacthead2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 0px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    margin-right: 23px;
+}
+}
